@@ -3,3 +3,8 @@ body {
     background-color: aqua
 }
 
+<style>
+  a {
+    background-color:#ffff00;
+  }
+</style>
