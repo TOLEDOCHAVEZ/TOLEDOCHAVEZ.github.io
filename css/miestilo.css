@@ -3,6 +3,11 @@ body {
     background-color: aqua
 }
 
+body {
+    color: RED;
+    background-color: aqua
+}
+
 .sender-column {
     text-align: right;
 }
