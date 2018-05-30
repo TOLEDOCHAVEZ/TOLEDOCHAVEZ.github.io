@@ -2,3 +2,7 @@ body {
     color: blue;
     background-color: aqua
 }
+
+.columnaderecha {
+    text-align: right;
+}
