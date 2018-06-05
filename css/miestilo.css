@@ -22,3 +22,31 @@ margin-bottom: 20px;
 li,lo {
   color: blue;
 }
+
+
+div {
+    width: 300px;
+    border: 25px solid plum;
+    padding: 25px;
+    margin: 25px;
+}
+
+.caja {
+    background: #272f2f;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.azul {
+    background: #4a88f4;
+}
+
+.naranja {
+    background: #e67e22;
+}
+
+.verde {
+    background: #27ae60;
+}
