@@ -1,28 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  font-size: 10pt;
-  color: #f00;
-  background-color: aqua
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #f00;
+    background-color: aqua
 }
 
 h1 {
-font-size: 36px;
-color: red;
-font-family: 'Open Sans';
+    font-size: 36px;
+    color: red;
+    font-family: 'Open Sans';
 }
 
 p {
-font-family: 'Open Sans';
-font-size: 14px;
-color: #ccc;
-line-height: 18px;
-margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #ccc;
+    line-height: 18px;
+    margin-bottom: 20px;
 }
 
-li,lo {
-  color: blue;
+li,
+lo {
+    color: blue;
 }
-
 
 div {
     width: 300px;
@@ -31,22 +31,23 @@ div {
     margin: 25px;
 }
 
-.caja {
-    background: #272f2f;
+#contenedor {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.caja1 {
+    background: #302f2f;
     display: inline-block;
     width: 200px;
     height: 200px;
     margin: 20px;
 }
 
-.azul {
+.caja2 {
     background: #4a88f4;
-}
-
-.naranja {
-    background: #e67e22;
-}
-
-.verde {
-    background: #27ae60;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
 }
