@@ -1,34 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 10pt;
-    color: #f00;
-    background-color: aqua
+table {
+    font-size: 12px;
+    background-color: rgb(151, 161, 192)
 }
 
-h1 {
-    font-size: 36px;
-    color: red;
-    font-family: 'Open Sans';
+article {
+    font-size: 16px;
+    color: rgb(94, 116, 240);
+    font-family: 'Cambria';
 }
 
-p {
-    font-family: 'Open Sans';
+h2 {
     font-size: 14px;
-    color: #ccc;
-    line-height: 18px;
-    margin-bottom: 20px;
+    color: rgb(240, 21, 21);
+    font-family: 'Cambria';
+}
+
+strong {
+    font-size: 12px;
+    color: rgb(240, 21, 21);
+    font-family: 'Cambria';
+    font-size: 15pt;
 }
 
 li,
-lo {
+lo,
+p {
     color: blue;
-}
-
-div {
-    width: 300px;
-    border: 25px solid plum;
-    padding: 25px;
-    margin: 25px;
 }
 
 #contenedor {
@@ -36,18 +33,72 @@ div {
     margin: 0 auto;
 }
 
-.caja1 {
-    background: #302f2f;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.caja2 {
-    background: #4a88f4;
+#header {
+    margin: auto;
+    width: 500px;
+    font-style: 'Cambria';
+    font-weight: bold;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li a {
+    color: rgb(226, 109, 13);
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    background-color: rgb(30, 163, 163);
+    font-style: 'Cambria';
+    font-size: 11pt;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav div ul line {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #e02315;
+    font-style: 'Cambria';
+    font-size: 28px;
+}
+
+ol {
+    background: #f5b01a;
+    padding: 20px;
+    font-style: 'Cambria';
+    font-size: 28px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
